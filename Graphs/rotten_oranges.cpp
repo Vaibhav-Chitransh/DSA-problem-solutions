@@ -21,7 +21,7 @@ int orangesRotting(vector<vector<int>>& grid) {
         int drow[] = {-1, 0, 1, 0};
         int dcol[] = {0, 1, 0, -1};
         
-        while(!q.empty()) {
+        while(!q.empty()) { 
             int r = q.front().first.first;
             int c = q.front().first.second;
             int t = q.front().second;
